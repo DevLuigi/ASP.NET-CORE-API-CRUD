@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qQk2SXbLiqCfrWbhYiNZV7CrsCSYjHXKjI2WrSQLxEM=",
+  "Source": "AspNetCoreCrud",
+  "BasePath": "_content/AspNetCoreCrud",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

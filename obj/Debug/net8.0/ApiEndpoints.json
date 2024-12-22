@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "AspNetCoreCrud.Controllers.PokemonController",
+    "Method": "listAllPokemons",
+    "RelativePath": "Pokemon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AspNetCoreCrud.Controllers.PokemonController",
+    "Method": "CreatePokemon",
+    "RelativePath": "Pokemon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pokemon",
+        "Type": "AspNetCoreCrud.Domains.Pokemon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AspNetCoreCrud.Controllers.PokemonController",
+    "Method": "getPokemonById",
+    "RelativePath": "Pokemon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AspNetCoreCrud.Controllers.PokemonController",
+    "Method": "updatePokemon",
+    "RelativePath": "Pokemon/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pokemon",
+        "Type": "AspNetCoreCrud.Domains.Pokemon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AspNetCoreCrud.Controllers.PokemonController",
+    "Method": "DeletePokemon",
+    "RelativePath": "Pokemon/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
